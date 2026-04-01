@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+padding: 20px 100px;
+}
+.second-paragraph{
+    background-color: gray;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.my-image{
+    flex-grow: 1;
+}
+.first-paragraph{
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.words:hover{
+    color: aqua;
+    
+}
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+}
+.image1{
+    border-radius: 100px;
+    transform: translate(15px);
+    /* transform: skew(45deg); */
+
+
+}
+.image-one{
+    border-color: black;
+    border-style: solid;
+    border-radius: 150px;
+
+}
+.image2{
+    box-shadow: 10px 10px white;
+    border-radius: 20px;
+
+}
+.personal-details{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 8px;
+}
+.about{
+    text-align: center;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-me{
+    margin: 20px 0 0 0;
+}
